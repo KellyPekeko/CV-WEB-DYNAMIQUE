@@ -1,0 +1,231 @@
+
+
+@media (max-width: 800px) {
+    body {
+      font-size: 14px;
+    }
+    .principal {
+      width: 90%;
+    }
+  }
+
+body {
+    font-family: var(--font-primary);
+    font-size: medium;
+    margin: 0;
+    padding: 0;
+    background-color: lightblue;
+    background-image: url(../img/picatchu-grand.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(3px);
+}
+
+.principal {
+    margin: 0 auto;
+    background-color: #d7d70b;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    width: 800px;
+}
+
+
+
+header {
+    
+    
+    height: 100px;
+    padding: 20px;
+    background-color:#d4d060;
+    margin-bottom: 0px;
+    /*margin-right: 50px;*/
+
+    width: 750px;
+}
+.nom{
+    font-size: 24px;
+   
+    margin-bottom: 10px;
+   
+    padding-bottom: 5px;
+    text-align: right;
+    
+}
+
+
+.header-image{
+    margin-left: 30px;
+   
+    max-width: 250px;
+    /*height: 200;*/
+   position: absolute;
+    
+    top: 80px;
+    
+    /*border-radius: 300px 300px 300px 300px ; Si tu veux arrondir garde le code que je vais ajouter juste en bas*/ 
+    
+    border-radius: 15% 15% 50% 50%;
+
+}
+.ex{
+    text-align: left;
+}
+
+ h1 {
+    font-size: 24px;
+    margin: 0;
+    
+}
+
+ h5 ,h6{
+    font-size: 16px;
+    margin: 5px 0;
+    color: #e03333;
+    
+}
+
+.contact {
+    text-align:left;
+}
+
+.contenu {
+    display: flex;
+    max-width: 900px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0.1);
+    justify-content: space-between;
+
+}
+
+.colonne-gauche, .colonne-droite{
+    padding: 20px;
+}
+
+.colonne-gauche {
+    background-color: #f0f0f0;
+    width: 35%;
+    border-radius: 10px 0 0 10px;
+}
+
+.colonne-droite {
+    background-color: #e0e0e0;
+    width: 65%;
+    border-radius: 100px 10px 10px 0;
+}
+ P{
+    font-size: medium;
+ }
+
+
+section {
+    border-color: #337ab7;
+    margin-bottom: 20px;
+}
+
+section h4 {
+    border-bottom: 2px solid #d7d70b;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+    color: #d7d70b;
+}
+
+a {
+    text-decoration: none;
+    color: #337ab7;
+}
+
+a:hover {
+    color: #da3911;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: medium;
+    text-align: start;
+}
+
+.l{
+    width: 110%;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+
+}
+
+
+.man{
+    top :13px;
+}
+
+.di{
+    
+    border-collapse: collapse;
+    width: 20%;
+    font-size: small;
+}
+.av{
+    text-align: center;
+    
+}
+.tab {
+    padding: 1px;
+    text-align: right;
+    
+
+}
+
+footer {
+    margin-top: 20px;
+    text-align: center;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.picatchu-image{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 30px;
+    top: 100px;
+    left: 30%;
+   
+}
+
+
+.competence {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .barre-container {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+  }
+  
+  .barre {
+    width: 100px; /* Largeur de la barre */
+    height: 10px; 
+    background-color: #e0e0e0; /* Couleur de fond */
+    border-radius: 5px; /* Coins arrondis */
+    overflow: hidden; /* Cache le dépassement de la progression */
+    margin-right: 10px;
+  }
+  
+  .progression {
+   
+    height: 100%;
+    background-color: #181b1e; /* Couleur de la progression */
+    transition: width 0.5s ease; /* Transition pour un effet fluide */
+  }
+  
+  .pourcentage {
+    font-size: 10px;
+  }
